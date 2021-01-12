@@ -1,5 +1,9 @@
 {
   "component_name": "Component Example",
   "component_slug": "{{ cookiecutter.component_name.lower()|replace(' ', '-')|replace('.', '-')|trim() }}",
-  "component_filename": "{{ cookiecutter.component_name.lower()|title|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}"
+  "component_filename": "{{ cookiecutter.component_name.lower()|title|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}",
+  "file_path": "{{ '.' | abspath }}/the_file",
+  "_extensions": [
+    "jinja2_ospath.extensions.OSPathExtension"
+  ]
 }
