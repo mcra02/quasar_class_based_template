@@ -27,7 +27,15 @@ Powered by [Maicol](https://github.com/mcra02) with the goal of optimize our dev
     $ cookiecutter https://github.com/mcra02/quasar_class_based_template.git
     ```
 
+    or
+
+    ```bash
+    $ cookiecutter https://github.com/mcra02/quasar_class_based_template.git -o [OUPUT DIR]
+    ```
+
     You will be prompted for some values. Provide them, then a Quasar Class Component template will be created for you.
+
+    Others comands [comand line options](https://cookiecutter.readthedocs.io/en/1.7.2/advanced/cli_options.html#command-line-options)
 
 3. Take a look at the generated folder:
 
