@@ -1,5 +1,5 @@
 {
   "component_name": "Component Example",
   "component_slug": "{{ cookiecutter.component_name.lower()|replace(' ', '-')|replace('.', '-')|trim() }}",
-  "component_filename": "{{ cookiecutter.component_name.lower()|map('capitalize')|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}"
+  "component_filename": "{{ cookiecutter.component_name.lower()|capfirst|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}"
 }
